@@ -1,0 +1,11 @@
+wandb==0.19.8
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+transformers==4.57.0
+sentencepiece==0.2.0
+pytorch-lightning==2.5.0.post0
+torchmetrics==1.6.3
+peft==0.17.1
+trl==0.15.2
+bitsandbytes==0.48.1
+
