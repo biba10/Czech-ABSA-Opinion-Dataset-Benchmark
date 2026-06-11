@@ -1,6 +1,6 @@
 # Czech_Opinion_ABSA
 
-This project contains a dataset and code for Aspect-Based Sentiment Analysis (ABSA) in the Czech language, focusing on restaurant reviews. The dataset includes annotations of opinion terms.
+This project contains a dataset and code for Aspect-Based Sentiment Analysis (ABSA) in the Czech language, focusing on restaurant reviews. The dataset includes annotations of opinion terms. Published as <a href="https://lrec.elra.info/conference/2026">LREC 2026</a> paper title "Extending Czech Aspect-Based Sentiment Analysis with Opinion Terms: Dataset and LLM Benchmarks".
 
 ---
 
@@ -61,3 +61,21 @@ Example:
 | `--token`                    | `str`   | `None`    | Token for model access (e.g. Hugging Face).                                    |
 | `--lora_r`                   | `int`   | `64`      | LoRA rank parameter.                                                           |
 | `--lora_alpha`               | `int`   | `16`      | LoRA alpha parameter.                                                          |
+
+## Citation
+If you find this repository helpful for your research, please cite our paper as follows:
+```
+@inproceedings{smid-etal-2026-extending,
+  title = {Extending Czech Aspect-Based Sentiment Analysis with Opinion Terms: Dataset and LLM Benchmarks},
+  author = {\v{S}}m{\'i}íd, Jakub and Priban, Pavel and Kral, Pavel},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {7973--7984},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/4hkzdnwfztkz},
+  abstract = {This paper introduces a novel Czech dataset in the restaurant domain for aspect-based sentiment analysis (ABSA), enriched with annotations of opinion terms. The dataset supports three distinct ABSA tasks involving opinion terms, accommodating varying levels of complexity. Leveraging this dataset, we conduct extensive experiments using modern Transformer-based models, including large language models (LLMs), in monolingual, cross-lingual, and multilingual settings. To address cross-lingual challenges, we propose a translation and label alignment methodology leveraging LLMs, which yields consistent improvements. Our results highlight the strengths and limitations of state-of-the-art models, especially when handling the linguistic intricacies of low-resource languages like Czech. A detailed error analysis reveals key challenges, including the detection of subtle opinion terms and nuanced sentiment expressions. The dataset establishes a new benchmark for Czech ABSA, and our proposed translation–alignment approach offers a scalable solution for adapting ABSA resources to other low-resource languages.}
+}
+```
