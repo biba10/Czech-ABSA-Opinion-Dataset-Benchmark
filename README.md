@@ -67,7 +67,7 @@ If you find this repository helpful for your research, please cite our paper as 
 ```
 @inproceedings{smid-etal-2026-extending,
   title = {Extending Czech Aspect-Based Sentiment Analysis with Opinion Terms: Dataset and LLM Benchmarks},
-  author = {\v{S}}m{\'i}íd, Jakub and Priban, Pavel and Kral, Pavel},
+  author = {\v{S}m{\'i}d, Jakub and Priban, Pavel and Kral, Pavel},
   booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
   month = {May},
   year = {2026},
